@@ -1,0 +1,77 @@
+.styledHeader {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 3;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.styledNav {
+    display: none;
+    gap: 15px;
+    position: fixed;
+    top: 0;
+    bottom: 50;
+    left: 0;
+    right: 0;
+    padding: 70px 20px 20px 40vw;
+    background-color: #222;
+}
+
+.styledNav.active {
+    display: block;
+}
+
+.styledNav a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.styledNav a:hover {
+    color: #fff;
+}
+
+.navButton {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+
+@media screen and (min-width: 768px) {
+    .styledNav {
+        display: flex;
+        position: static;
+        padding: 0;
+    }
+
+    .styledNav a {
+        padding: 0;
+    }
+
+    .navButton {
+        display: none;
+    }
+}

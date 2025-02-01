@@ -1,0 +1,31 @@
+.mainImg {
+    text-align: center;
+}
+
+.bigImg {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.imageContainer {
+    display: flex;
+    gap: 10px;
+    flex-grow: 0;
+    margin-top: 10px;
+}
+
+.imageBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    height: auto;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}

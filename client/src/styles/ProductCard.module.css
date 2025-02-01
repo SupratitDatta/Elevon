@@ -1,0 +1,53 @@
+.whiteBox {
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.whiteBox img {
+    border-radius: 10px;
+}
+
+.productInfoBox {
+    text-align: center;
+}
+
+.priceRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+.producttitle {
+    font-weight: normal;
+    font-size: .9rem;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .price {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .priceRow {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2px;
+    }
+}

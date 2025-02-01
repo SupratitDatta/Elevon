@@ -1,0 +1,65 @@
+.styledButton {
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.styledButton svg {
+    height: 16px;
+    margin-right: 5px;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.white {
+    background-color: #fff;
+    color: #000;
+}
+
+.white.outline {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.black.outline {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.primary {
+    background-color: #0D3D29;
+    border: 1px solid #0D3D29;
+    color: #fff;
+}
+
+.primary.outline {
+    background-color: transparent;
+    border: 1px solid #0D3D29;
+    color: #0D3D29;
+}
+
+.l {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .l {
+        font-size: 1rem;
+        padding: 5px 15px;
+    }
+}

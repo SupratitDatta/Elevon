@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body {
+    background-color: #eee;
+    padding: 0;
+    margin: 0;
+    font-family: "Fredoka", sans-serif;
+}
+
+.center-nav {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.center {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 30px 0 20px;
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    text-transform: uppercase;
+    color: #ccc;
+    font-weight: 600;
+    font-size: .7rem;
+}
+
+table td {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.whiteBox {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}

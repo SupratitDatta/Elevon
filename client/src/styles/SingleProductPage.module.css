@@ -1,0 +1,46 @@
+.colWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.whiteBox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.productImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.priceRow {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.price {
+    font-size: 1.4rem;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .colWrapper {
+        grid-template-columns: 0.8fr 1.2fr;
+    }
+}
