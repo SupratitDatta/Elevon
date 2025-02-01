@@ -13,8 +13,8 @@
 - **Shopping Cart Management**  
   Easily add, remove, and modify products in your cart before checkout.
 
-- **Admin Dashboard** 
-  Manage inventory, track sales, add, update, remove products and handle user order with an intuitive admin panel.
+- **Admin Dashboard**  
+  Manage inventory, add, update, remove products and handle user orders with an intuitive admin panel.
   
 ## Tech Stack
 
